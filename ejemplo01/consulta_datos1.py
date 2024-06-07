@@ -27,6 +27,11 @@ print("Presentación de Clubs")
 for s in clubs:
     print("%s" % (s))
     print("---------")
+    print("%d" % (s.obtener_anios_vida())) #Se le esta poniendo la resposabilidad al objeto
+    print("---------")
+    print("%s" % (s.obtener_dorsales_jugadores()))
+    print("---------")
+    print("%s" % (s.obtener_suma_dorsales()))
 
 # Obtener todos los registros de 
 # la entidad Jugador
