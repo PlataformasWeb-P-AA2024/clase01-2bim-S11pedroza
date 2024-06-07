@@ -7,7 +7,7 @@ from sqlalchemy import and_ # se importa el operador and
 from genera_tablas import Club, Jugador
 
 # se importa información del archivo configuracion
-from configuracion import cadena_base_datos
+from ejemplo02.configuracion import cadena_base_datos
 # se genera enlace al gestor de base de
 # datos
 # para el ejemplo se usa la base de datos

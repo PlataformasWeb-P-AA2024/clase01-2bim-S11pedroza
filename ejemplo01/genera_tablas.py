@@ -5,7 +5,7 @@ from sqlalchemy import Column, Integer, String, ForeignKey
 import datetime
 
 # se importa información del archivo configuracion
-from configuracion import cadena_base_datos
+from ejemplo02.configuracion import cadena_base_datos
 
 # se genera en enlace al gestor de base de
 # datos
